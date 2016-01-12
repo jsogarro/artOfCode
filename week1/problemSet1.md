@@ -10,9 +10,9 @@ Read chapters 4 - 6 of ["Eloquent JavaScript"](http://eloquentjavascript.net/) a
 
 2) Create a function that takes a string as its input and returns the number of vowels that appear in the string.
 
-*Note: Please include your answers to both questions in a single markdown file in your Git repository (folder) that you will be using to submit this week's homework. You can read more about markdown here: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) (pay special attention to the syntax highlighting section). Please include this file in the root of the directory you will be using to submit your homework.*
-
 3) Create a Shape constructor function that has a height and width property. Include a method that will calculate the area of the shape, where area is defined as the shape's height multiplied by its width.
+
+*Note: Please include your answers to both questions in a single markdown file in your Git repository (folder) that you will be using to submit this week's homework. You can read more about markdown here: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) (pay special attention to the syntax highlighting section). Please include this file in the root of the directory you will be using to submit your homework.*
 
 **Hint: For questions 1 and 2 you may want to search through the MDN guides to find a method on the String prototype that converts a string into an Array**
 
@@ -20,4 +20,4 @@ Read chapters 4 - 6 of ["Eloquent JavaScript"](http://eloquentjavascript.net/) a
 
 
 ## Writing Assignment
-Using your Medium, account write a blog post about functions and methods in JavaScript. You should be able to explain the difference between functions and methods. You should also describe what constructor functions are and give an example of how to create and use one.
+Using your Medium account write a blog post about functions and methods in JavaScript. You should be able to explain the difference between functions and methods. You should also describe what constructor functions are and give an example of how to create and use one.
