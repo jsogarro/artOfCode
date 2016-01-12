@@ -1,11 +1,11 @@
-# Art of Code - Problem Set 1
+# Art of Code - Problem Set 0
 
 Please submit your completed problem set in a javascript file for our review. The deadline to submit your answers to this problem set is **Monday, January 11th at 6:29 PM**.
 
 ## Reading Assignment
 Read chapters 1 -3 of ["Eloquent JavaScript"](http://eloquentjavascript.net/) and complete the following coding exercises and writing assignment.
 
-## Coding Exercises 
+## Coding Exercises
 
 1) Using a for loop write a program that will capitalize all items in an array of strings. Your program should log the answer to the console so we can see the output when it runs. Use the following array for your example: ["computer", "iphone", "racecar", "macbook", "ipad", "android"];
 

@@ -2,7 +2,7 @@
 Please submit your completed problem set through Github using the instructions we will cover in class this week. The deadline to submit your answers to this problem set is **Monday January 18th at 6:30 PM**.
 
 ## Reading Assignment
-Read chapters 4, 6, 8 and 9 of ["Eloquent JavaScript"](http://eloquentjavascript.net/) and complete the following coding exercises and writing assignment.
+Read chapters 4 - 6 of ["Eloquent JavaScript"](http://eloquentjavascript.net/) and complete the following coding exercises and writing assignment.
 
 ## Coding Exercises
 
