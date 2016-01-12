@@ -15,4 +15,4 @@ Read chapters 1 -3 of ["Eloquent JavaScript"](http://eloquentjavascript.net/) an
 
 
 ## Writing Assignment
-Using your [Medium](https://medium.com/) account write a blog post that describes the basic principles of programming. Your post should describe what variables, datatypes and logical operators are and how we can use them in our programs. You should also explain how if statements and for loops work. Include code samples to demonstrate your point. Thesey examples should be written in JavaScript. Please include a link to your blog post.
+Using your [Medium](https://medium.com/) account write a blog post that describes the basic principles of programming. Your post should describe what variables, datatypes and logical operators are and how we can use them in our programs. You should also explain how if statements and for loops work. Include code samples to demonstrate your point. These examples should be written in JavaScript. Please include a link to your blog post.
