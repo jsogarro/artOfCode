@@ -2,7 +2,7 @@
 Please submit your completed problem set through Github using the instructions we will cover in class this week. The deadline to submit your answers to this problem set is **Monday January 25th at 6:30 PM**.
 
 ## Coding Exercises
-1) Write a Player constructor function that has username, score and highScore properties. Add an updateScore method that will increment a player's score when called and update the highScore property of the score is greater than the current high score.
+1) Write a Player constructor function that has username, score and highScore properties. Add an updateScore method that will increment a player's score when called and update the highScore property if the score is greater than the current high score.
 
 2) Add a gameOver method to your Player class that will reset the user's score.
 
