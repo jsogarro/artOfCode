@@ -10,7 +10,11 @@ Please submit your completed problem set through Github using the instructions w
 
 4) Create a function called GameController that takes a Player as an argument along with a guess (in this case it will be any number from 1 - 10). When your function is called it should generate a random number from 1 - 10 and give the user 10 points for every correct answer. If the guess is incorrect then the user will lose a life. When a user has zero lives left this function will log "Game Over!" to the console and reset the user's score.
 
-Bonus: if the user gets three guesses correct in a row award them an extra life!
+5) Add a editUserName method to your Player constructor that will allow the user to update their user name.
+
+Bonus: If the user gets three guesses correct in a row award them an extra life!
+
+Bonus: Add a way for the GameController to keep track of the high score of all players in the game.
 
 ## Writing Assignment
 Write a blog post detailing your solutions to the exercises in the code challenges section above.
