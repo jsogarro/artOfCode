@@ -13,6 +13,7 @@ Player.prototype.updateScore = function () {
     }
 }
 
+// Question 5
 Player.prototype.editUserName = function(newUserName) {
     this.userName = newUserName;
 }
