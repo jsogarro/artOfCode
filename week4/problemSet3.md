@@ -21,9 +21,9 @@ Read chapters 12 - 14 of ["Eloquent JavaScript"](http://eloquentjavascript.net/)
 
 7) Using the Spotify API get an artist's related artists on the platform and display them to the webpage in the form of an unordered list.
 
-** Hint: For questions 6 and 7 you should use the [API Endpoint Reference](https://developer.spotify.com/web-api/endpoint-reference/) as your guide.**
+**Hint: For questions 6 and 7 you should use the [API Endpoint Reference](https://developer.spotify.com/web-api/endpoint-reference/) as your guide.**
 
-** Hint 2: You should read the as a refresher of how to create an ordered list [MDN reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol) and [ordered list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul).**
+**Hint 2: You should read the as a refresher of how to create an ordered list [MDN reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol) and [ordered list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul).**
 
 
 ## Writing Assignment
