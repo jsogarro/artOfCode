@@ -1,5 +1,5 @@
 # Art of Code - Midterm 1
-Please submit your completed to me directly in Slack. The deadline to submit your answers to this midterm is **Saturday, February 6th by  11:59 PM**.
+Please submit your completed midterm to me directly in Slack. Please submit your completed midterm as a markdown file using the following format: firstLastMidterm1.md. The deadline to submit your answers to this midterm is **Saturday, February 6th by  11:59 PM**.
 
 
 ## Conceptual Questions
