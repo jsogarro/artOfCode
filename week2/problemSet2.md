@@ -18,3 +18,7 @@ Bonus: Add a way for the GameController to keep track of the high score of all p
 
 ## Writing Assignment
 Write a blog post detailing your solutions to the exercises in the code challenges section above.
+
+
+Loop through the following array: [1,2,3,4,5,6];
+If the number is even log "fizz" to the console. If the number is odd, log "buzz" to the console. Otherwise log "fizz buzz" to the console.
