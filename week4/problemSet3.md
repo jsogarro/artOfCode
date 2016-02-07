@@ -1,5 +1,5 @@
 # Art of Code Problem Set 3
-Please submit your completed problem set in a javascript file for our review. The deadline to submit your answers to this problem set is **Monday, February 10th at 6:29 PM**.
+Please submit your completed problem set in a javascript file for our review. The deadline to submit your answers to this problem set is **Saturday, February 13th at 11:59 PM**.
 
 
 ## Reading Assignment
