@@ -62,3 +62,6 @@ function getTextInput() {
 
     console.log($inputValue);
 };
+
+console.log('spotify.js loaded');
+console.log(MyMath);
