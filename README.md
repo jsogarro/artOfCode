@@ -32,12 +32,11 @@ Homework and assignments for the Art of Code program. The Art of Code workforce 
 * Events
 * Event Handling
 * Event Bubbling
-* Midterm 1 and Project 1
+* Midterm 1
 
 ### Week 5
 * Asynchronous JavaScript
 * AJAX and JSON
-* Node.js
 
 ### Week 6
 * Advanced Asynchronous JavaScript
@@ -54,7 +53,6 @@ Homework and assignments for the Art of Code program. The Art of Code workforce 
 * Midterm 2 and Project 2
 
 ### Week 9
-* Gulp
 * JSHint
 * Compiling and Minifying Code
 
