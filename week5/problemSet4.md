@@ -24,4 +24,4 @@ Read chapter 17 of ["Eloquent JavaScript"](http://eloquentjavascript.net/) and c
 **Hint 3: You can read more about what the Fibonacci sequence is [here](https://www.mathsisfun.com/numbers/fibonacci-sequence.html).**
 
 ## Writing Assignment
-Using your Medium account write a blog explaining what HTTP and AJAX are. Provide a tutorial of how you can use jQuery's Ajax method to get data from the Spotify API.
+Using your Medium account write a blog explaining what HTTP and AJAX are. Provide a tutorial of how you can use jQuery's Ajax method to get data from the Spotify API. Briefly explain what promises are and how we use them as JavaScript developers. You should also explain what REST is.
