@@ -1,6 +1,5 @@
 # Art of Code Problem Set 3
-Please submit your completed problem set in a javascript file for our review. The deadline to submit your answers to this problem set is **Saturday, February 13th at 11:59 PM**.
-
+Please submit your completed problem set in a javascript file for our review. The deadline to submit your answers to this problem set is **Saturday, February 15th at 11:59 PM**.
 
 ## Reading Assignment
 Read chapters 12 - 14 of ["Eloquent JavaScript"](http://eloquentjavascript.net/) and complete the following coding exercises and writing assignment.
@@ -17,14 +16,9 @@ Read chapters 12 - 14 of ["Eloquent JavaScript"](http://eloquentjavascript.net/)
 
 5) Create an Employee constructor that has name, salary and years properties. Add an employees property to the Dealership constructor that will keep track of the employees.
 
-6) Using the Spotify app in the [examples folder](https://github.com/jsogarro/artOfCode/tree/master/examples), add a method that will retrieve the top tracks and display them on the webpage as an ordered list.  
+6) In the Statics example (examples/stats) we did in class on Wednesday modify the code to calculate the sum, min, max and range of items in the array and display it to webpage. Look at the average example we did in class for guidance.
 
-7) Using the Spotify API get an artist's related artists on the platform and display them to the webpage in the form of an unordered list.
-
-**Hint: For questions 6 and 7 you should use the [API Endpoint Reference](https://developer.spotify.com/web-api/endpoint-reference/) as your guide.**
-
-**Hint 2: You should read the as a refresher of how to create an ordered list [MDN reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol) and [ordered list](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul).**
-
+7) Create a function called "mode," which will find the number in the user's input that appears the most. You should display the mode value to the screen.
 
 ## Writing Assignment
-Using your Medium account write a blog describing what the DOM is, what jQuery is and how we can use it make dynamic websites. Explain what events. Provide an example of an example of how you can add a click event to a button that will alert the message "YES!" when clicked.
+Using your Medium account write a blog describing what the DOM is, what jQuery is and how we can use it make dynamic websites. Explain what events are. Provide an example of how you can add a click event to a button that will alert the message "YES!" when clicked.
