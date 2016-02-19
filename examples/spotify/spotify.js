@@ -10,7 +10,7 @@ function getAlbumData() {
       url: "https://api.spotify.com/v1/albums/0sNOF9WDwhWunNAHPD3Baj",
       context: document.body
     }).done(function(albumData) {
-        console.log(albumData);
+        console.log('Album Data:', albumData);
 
         // Parse our data so we can write it to the DOM
         var albumNameText = albumData.name;
@@ -32,7 +32,7 @@ function getArtistData() {
       url: "https://api.spotify.com/v1/artists/2BTZIqw0ntH9MvilQ3ewNY",
       context: document.body
     }).done(function(artistData) {
-      console.log(artistData);
+      console.log('Artist Data: ', artistData);
 
       // Parse our data so we can write it to the DOM
       var avatarUrl = artistData.images[2].url;
@@ -65,3 +65,14 @@ function getTextInput() {
 
 console.log('spotify.js loaded');
 console.log(MyMath);
+
+
+// Get all p elements on the page
+var ps = document.getElementsByTagName('p');
+
+// loop through all the p elments and long their inner HTML
+for (var i = 0; i < ps.length; i++) {
+    if (ps[i].innerHTML.charAt(0) !== ps[i].innerHTML.charAt(0).toUpperCase()) {
+        ps[i].innerHTML = ps[i].innerHTML.substring(0, 1).toUpperCase() + ps[i].innerHTML.substring(1);
+    }
+}
