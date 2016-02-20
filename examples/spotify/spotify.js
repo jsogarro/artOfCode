@@ -18,6 +18,18 @@ function getAlbumData() {
         var albumTracksArr = albumData.tracks.items;
         var imageUrl = albumData.images[1].url;
 
+        var tracksArray = albumData.tracks.items;
+        console.log('tracks: ', tracksArray);
+
+        // loop through tracks and apppend to DOM
+        for (var i = 0; i < tracksArray.length; i++) {
+            var trackInfo = tracksArray[i];
+            var trackListItem = '<li>' + trackInfo.name + '</li>';
+
+            $('ul').append(trackListItem);
+            console.log(trackInfo.name);
+        };
+
         $('img#album-cover').attr({src: imageUrl});
 
 

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+        <title>JavaScript Review</title>
+
+        <style type="text/css">
+            .box {
+                height: 200px;
+                padding: 50px;
+            }
+
+            .box p {
+                color: white;
+                font-weight: bold;
+            }
+
+            .box.blue {
+                background: blue;
+            }
+
+            .box.red {
+                background: red;
+            }
+
+            .glyph {
+                margin:20px;
+                height: 10px;
+                width:10px;
+                background-image: url(http://rjwattenhofer.com/technical/glyphicons/img/glyphicons-halflings-sprite-sheet.png);
+            }
+        </style>
+    </head>
+    <body class="container">
+        <h1>JavaScript Review</h1>
+
+        <form action="" class="form-group">
+            <input type="text" class="form-control">
+            <div class="btn btn-success">Button</div>
+        </form>
+
+        <div class="box">
+            <p>Move Me!</p>
+        </div>
+
+
+        <h2>Grid example</h2>
+        <div class="row">
+            <div class="col-md-1 box blue"></div>
+            <div class="col-md-4 box red"></div>
+            <div class="col-md-2 box blue"></div>
+            <div class="col-md-4 box red"></div>
+        </div>
+
+        <h3>Icon Examples</h3>
+        <div>
+            <span class="glyphicon glyphicon-fast-backward"></span>
+            <span class="glyphicon glyphicon-play"></span>
+            <span class="glyphicon glyphicon-stop"></span>
+            <span class="glyphicon glyphicon-fast-forward"></span>
+        </div>
+
+        <div>
+            <div class="glyph"></div>
+        </div>
+
+        <h2>TAble Example</h2>
+        <table class="table table-hover table-striped">
+            <thead>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>datum 1</td>
+                    <td>datum 2</td>
+                    <td>datum 2</td>
+                </tr>
+                <tr>
+                    <td>datum 1</td>
+                    <td>datum 2</td>
+                    <td>datum 2</td>
+                </tr>
+                <tr>
+                    <td>datum 1</td>
+                    <td>datum 2</td>
+                    <td>datum 2</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.js"></script>
+        <script type="text/javascript" src="review.js"></script>
+    </body>
+</html>
