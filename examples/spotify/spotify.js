@@ -7,8 +7,7 @@ getAlbumData();
 // Function taht will get album data from the Spotify API
 function getAlbumData() {
     $.ajax({
-      url: "https://api.spotify.com/v1/albums/0sNOF9WDwhWunNAHPD3Baj",
-      context: document.body
+      url: "https://api.spotify.com/v1/albums/0sNOF9WDwhWunNAHPD3Baj"
     }).done(function(albumData) {
         console.log('Album Data:', albumData);
 
