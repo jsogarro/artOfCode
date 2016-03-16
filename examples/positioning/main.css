@@ -1,0 +1,7 @@
+li.star {
+    display: block;
+}
+
+li.star.inline {
+    display: inline;
+}
