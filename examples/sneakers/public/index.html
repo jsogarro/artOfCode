@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Sneaker App</title>
+    </head>
+    <body class="container">
+
+        <section id="input">
+            <h1>Sneaker Tracker App</h1>
+
+            <h2>Add a sneaker:</h2>
+            <label>Sneaker:</label>
+            <input id="model" class="form-control" type="text" name="name" value="" placeholder="Sneaker model">
+
+            <label>Brand:</label>
+            <input id="brand" class="form-control" type="text" name="name" value="" placeholder="Brand">
+
+            <label>Price:</label>
+            <input id="price" class="form-control" type="text" name="name" value="" placeholder="Price">
+
+            <label>Size:</label>
+            <input id="size" class="form-control" type="text" name="name" value="" placeholder="Size">
+
+            <button type="button" class="btn btn-success">Save</button>
+        </section>
+
+        <section id="data">
+            <table class="table table-hover">
+              <thead>
+                  <tr>
+                      <th>Model</th>
+                      <th>Brand</th>
+                      <th>Price</th>
+                      <th>Size</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <!-- LOAD SNEAKER INFO HERE -->
+              </tbody>
+            </table>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-1.12.2.js"   integrity="sha256-VUCyr0ZXB5VhBibo2DkTVhdspjmxUgxDGaLQx7qb7xY="   crossorigin="anonymous"></script>
+        <script type="text/javascript" src="dist/manifest.js"></script>
+    </body>
+</html>

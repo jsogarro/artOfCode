@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Instagram Search</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h1>Instagram Search</h1>
+
+      <!-- THE REQUST TO AUTHENTICATE THROUGH INSTAGRAM -->
+      <h2>Please authenticate to use this application:</h2>
+      <a href="https://instagram.com/oauth/authorize/?client_id=ADD_YOUR_CLIENT_ID&redirect_uri=http://localhost:3000/&response_type=token" class="btn btn-primary">AUTHENTICATE!</a>
+
+      <br>
+
+      <!-- SEARCH FOR TAGS THROUGH A FORM -->
+      <h2>Search for tags:</h2>
+      <div class='search-wrap form-group'>
+        <input class='search-tag form-control' type='text' tabindex='1' />
+      </div>
+      <button type='submit' id='search-button' tabindex='2' class="btn btn-primary">
+        <span class='button-content'>Search</span>
+      </button>
+
+      <br><br>
+
+      <!-- AREA THAT WE ARE APPENDING PHOTOS -->
+      <div id="target"></div>
+    </div>
+
+    <!-- LOAD OUR JQUERY AND MAIN.JS FILES -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
