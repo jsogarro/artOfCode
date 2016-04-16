@@ -1,0 +1,23 @@
+<ion-navbar *navbar>
+  <ion-title>Tab 1</ion-title>
+</ion-navbar>
+
+<ion-content padding class="page1">
+  <h2>{{ title }}</h2>
+  <ion-card *ngFor="#post of posts">
+
+  <ion-card-header>
+    {{ post.userName }}
+  </ion-card-header>
+
+  <ion-card-content>
+    <img [src]="post.imageUrl" alt="" />
+
+    <p>
+        {{ post.quote }}
+    </p>
+  </ion-card-content>
+
+</ion-card>
+
+</ion-content>
