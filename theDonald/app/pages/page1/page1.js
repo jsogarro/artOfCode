@@ -7,7 +7,15 @@ import {Page} from 'ionic-angular';
 export class Page1 {
 
   constructor() {
-        this.title = 'Trump Talk';
+        this.title;
+        this.posts;
+
+        this.viewDidLoad();
+    }
+
+    viewDidLoad() {
+        this.title = 'Latest Trumpisms';
+
         this.posts = [
             {
                 imageUrl: "https://pbs.twimg.com/profile_images/705464735353991168/d4eBpkKr.jpg",
@@ -45,5 +53,5 @@ export class Page1 {
                 userName: "The Donald"
             }
         ];
-  }
+    }
 }
